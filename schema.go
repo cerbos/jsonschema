@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"hash/maphash"
 	"math/big"
 	"net/url"
 	"regexp"
@@ -12,6 +11,8 @@ import (
 	"strconv"
 	"strings"
 	"unicode/utf8"
+
+	"github.com/santhosh-tekuri/jsonschema/v5/maphash"
 )
 
 // A Schema represents compiled version of json-schema.
